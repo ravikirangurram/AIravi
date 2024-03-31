@@ -5,7 +5,7 @@ second=int(second)
 print("----press keys for operator(+,-.*,/,%)------------")
 operator=input('enter operator:')
 if operator=="+":
-     print( int(first + second)
+     print( int(first + second))
 elif operator=="-":
     print(first-second)
 elif operator=="*":
@@ -15,4 +15,4 @@ elif operator=="/":
 elif operator=="%":
     print(first%second)
 else:
-    print("invalid operation
+    print("invalid operation")
